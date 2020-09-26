@@ -10,7 +10,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="title:琐事闲谈date:2020-9-23
+    <meta name="description" content="title:琐事闲谈
+date:2020-9-23
+tags:
+-文章标签一
+
+-文章标签二
 
 
 
@@ -19,6 +24,8 @@
     <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
     
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -64,13 +71,18 @@
 
         </div>
         <div class="content markdown">
-            <p>title:琐事闲谈<br>date:2020-9-23</p>
+            <p>title:琐事闲谈</p>
+<p>date:2020-9-23</p>
+<p>tags:</p>
+<pre><code>-文章标签一
+
+-文章标签二</code></pre>
 <!--在经历了很多次的失败后终于为博客换了个主题-->
 
 
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
             </audio>
             
@@ -89,7 +101,7 @@
         </div>
         
     <div id='gitalk-container' class="comment link"
-		data-enable='false'
+		data-enable='true'
         data-ae='false'
         data-ci=''
         data-cs=''
@@ -108,6 +120,8 @@
     </div>
 </div>
 </body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
